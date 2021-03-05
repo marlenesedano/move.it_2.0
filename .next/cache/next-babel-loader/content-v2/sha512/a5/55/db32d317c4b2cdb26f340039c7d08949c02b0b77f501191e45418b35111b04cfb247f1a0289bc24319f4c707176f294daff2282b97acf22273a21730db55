@@ -1,0 +1,1 @@
+{"ast":null,"code":"","map":{"version":3,"sources":[],"names":[],"mappings":"","sourcesContent":["\n\n\n\nimport styles from '../styles/pages/HomeMoveit.module.css'\n\n\n\ninterface HomeProps {\n  level: number;\n  currentExperience: number;\n  challengesCompleted: number;\n}\n\n\n\n"]},"metadata":{},"sourceType":"module"}

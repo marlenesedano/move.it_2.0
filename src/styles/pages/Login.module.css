@@ -1,0 +1,156 @@
+
+
+.container {
+  text-align: center;
+  background-color: #5965e0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  gap: 30rem;
+}
+
+.logo {
+  margin: 10rem 0 5rem 0;
+  width: 360px;
+  height: 76px;
+  left: 820px;
+  top: 199px;
+}
+
+.boasvindas {
+  position: absolute;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+
+  color: #ffffff;
+}
+
+.git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem 0 2rem 0;
+  width: 318px;
+  height: 60px;
+  left: 820px;
+  top: 441px;
+  color: #b2b9ff;
+  gap: 5px;
+}
+
+.git:hover {
+  border: double;
+}
+
+.btn {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: #a0a6eb;
+  font-weight: 600;
+  text-align: left;
+}
+
+.inputLogin {
+  display: flex;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.user {
+  background: rgb(73, 83, 184);
+  border: hidden;
+}
+
+@media screen and (max-width: 1404px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .img {
+    display: none;
+  }
+  .logo{
+    width: 150px;
+  }
+  .inputLogin {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+  }
+}
+
+@media screen and(max-width: 850px){
+    .container {
+        justify-content: center;
+        align-items: center;
+        
+        height: 100vh;
+        width: 100vw;
+      }
+      .logo{
+        width: 100px;
+      }
+      .img {
+        display: none;
+      }
+      .inputLogin {
+        display: flex;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 600;
+        width: 200px;
+        height: 50px;
+      }
+
+      .logo {
+        
+        width: 360px;
+        height: 76px;
+        left: 520px;
+        top: 160px;
+        
+      }
+
+}
+
+@media screen and(max-width: 260px){
+    .container {
+        justify-content: center;
+        align-items: center;
+        
+      }
+      .img {
+        display: none;
+      }
+      .logo{
+        width: 30px;
+      }
+      .inputLogin {
+        display: flex;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-weight: 600;
+        width: 200px;
+        height: 50px;
+        
+      }
+}
+
